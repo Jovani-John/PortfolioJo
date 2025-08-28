@@ -3,18 +3,15 @@ import Card from "../Card/Card";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import TripleCommerceImg from "../../assets/imgs/Triple-Commerce.PNG";
+import TripleCommerceImg from "../../assets/imgs/Triple-Commerce.png";
 import TriplePizzaImg from "../../assets/imgs/Triple-Pizza.png";
 import AdGenixAgancyImg from "../../assets/imgs/AdGenix-Agancy.png";
 import TripleHomeImg from "../../assets/imgs/Triple-Home.png";
-import ECommerce from "../../assets/imgs/ECommerce.PNG";
-import PortfolioImg from "../../assets/imgs/Portfolio.PNG";
-import Weather from "../../assets/imgs/Weather.PNG";
-import Mealify from "../../assets/imgs/Mealify.PNG";
-import ReactPortfolio from "../../assets/imgs/ReactPortfolio.PNG";
-import Bookmarker from "../../assets/imgs/Bookmarker.PNG";
-import SmartLogin from "../../assets/imgs/SmartLogin.png";
-import QuotesGenerator from "../../assets/imgs/QuotesGenerator.png";
+import ECommerce from "../../assets/imgs/ECommerce.png";
+import PortfolioImg from "../../assets/imgs/Portfolio.png";
+import Weather from "../../assets/imgs/Weather.png";
+import Mealify from "../../assets/imgs/Mealify.png";
+import ReactPortfolio from "../../assets/imgs/ReactPortfolio.png";
 import FloatingFAIcons from "../BubblesBackground/FloatingFAIcons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import {
