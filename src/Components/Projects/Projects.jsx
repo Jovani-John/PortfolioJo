@@ -10,7 +10,6 @@ import TripleHomeImg from "../../assets/imgs/Triple-Home.png";
 import ECommerce from "../../assets/imgs/ECommerce.png";
 import PortfolioImg from "../../assets/imgs/Portfolio.png";
 import Weather from "../../assets/imgs/Weather.png";
-import Mealify from "../../assets/imgs/Mealify.png";
 import ReactPortfolio from "../../assets/imgs/ReactPortfolio.png";
 import FloatingFAIcons from "../BubblesBackground/FloatingFAIcons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
@@ -94,15 +93,7 @@ export default function Projects() {
         "Get accurate, real-time weather updates for any city worldwide.",
       category: "JavaScript",
     },
-    {
-      title: "Mealify",
-      img: Mealify,
-      liveDemo: "https://JovaniJohn2611.github.io/Mealify/",
-      repo: "http://github.com/JovaniJohn2611/Mealify",
-      description:
-        "Mealify is a professional and responsive restaurant website built using HTML and CSS.",
-      category: "CSS & HTML & JavaScript",
-    },
+
     {
       title: "Portfolio",
       img: ReactPortfolio,
