@@ -9,7 +9,6 @@ import AdGenixAgancyImg from "../../assets/imgs/AdGenix-Agancy.png";
 import TripleHomeImg from "../../assets/imgs/Triple-Home.png";
 import ECommerce from "../../assets/imgs/ECommerce.png";
 import PortfolioImg from "../../assets/imgs/Portfolio.png";
-import Weather from "../../assets/imgs/Weather.png";
 import Mealify from "../../assets/imgs/Mealify.png";
 import ReactPortfolio from "../../assets/imgs/ReactPortfolio.png";
 import FloatingFAIcons from "../BubblesBackground/FloatingFAIcons";
@@ -85,15 +84,7 @@ export default function Projects() {
         "responsive personal portfolio website built with React.js. Showcases projects, skills, and contact details with smooth navigation, animations, and a modern UI to highlight professional presence online..",
       category: "React",
     },
-    {
-      title: "Weather-app",
-      img: Weather,
-      liveDemo: "https://JovaniJohn2611.github.io/Weather-app/",
-      repo: "https://github.com/JovaniJohn2611/Weather-app",
-      description:
-        "Get accurate, real-time weather updates for any city worldwide.",
-      category: "JavaScript",
-    },
+    
     {
       title: "Mealify",
       img: Mealify,
