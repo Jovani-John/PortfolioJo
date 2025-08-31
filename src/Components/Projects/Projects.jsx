@@ -9,6 +9,10 @@ import AdGenixAgancyImg from "../../assets/imgs/AdGenix-Agancy.png";
 import TripleHomeImg from "../../assets/imgs/Triple-Home.png";
 import ECommerce from "../../assets/imgs/ECommerce.png";
 import PortfolioImg from "../../assets/imgs/Portfolio.png";
+import CommerceImg from "../../assets/imgs/E-Commerce.png";
+import EducationImg from "../../assets/imgs/Education.png";
+import CoatchingImg from "../../assets/imgs/Coatching.png";
+import CafeImg from "../../assets/imgs/Cafe.png";
 import ReactPortfolio from "../../assets/imgs/ReactPortfolio.png";
 import FloatingFAIcons from "../BubblesBackground/FloatingFAIcons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
@@ -26,13 +30,14 @@ export default function Projects() {
   }, []);
   const [selectedCategory, setSelectedCategory] = useState("All");
 
-  const categories = ["All", "CSS & HTML & JavaScript",  "React", "Next"];
+  const categories = ["All", "CSS & HTML & JavaScript", "React", "Next"];
 
   const projects = [
     {
       title: "Triple Commerce",
-      img:TripleCommerceImg,
-      liveDemo: "https://triple-commerce-gftom676d-jovani-johns-projects.vercel.app/",
+      img: TripleCommerceImg,
+      liveDemo:
+        "https://triple-commerce-gftom676d-jovani-johns-projects.vercel.app/",
       repo: "https://github.com/Jovani-John/Triple-Commerce",
       description:
         "A modern E-Commerce website built with React.js and Firebase. Allows users to browse products, add them to cart or wishlist, and securely place orders. Features real-time updates, user authentication, and responsive design..",
@@ -83,8 +88,34 @@ export default function Projects() {
         "responsive personal portfolio website built with React.js. Showcases projects, skills, and contact details with smooth navigation, animations, and a modern UI to highlight professional presence online..",
       category: "React",
     },
-    
 
+    {
+      title: "E-Commerce",
+      img: CommerceImg,
+      liveDemo: "https://triple-ecommerce.vercel.app/",
+      repo: "https://github.com/Jovani-John/Triple-Ecommerce",
+      description:
+        "Responsive e-commerce website built with React.js. Features product listings, shopping cart, and secure checkout with smooth navigation, engaging animations, and a modern UI to enhance the online shopping experience.",
+      category: "React",
+    },
+    {
+      title: "Education",
+      img: EducationImg,
+      liveDemo: "https://triple-education.vercel.app/",
+      repo: "https://github.com/Jovani-John/Triple-Education",
+      description:
+        "Responsive educational platform built with React.js. Provides interactive coding tutorials, progress tracking, and quizzes with smooth navigation, engaging animations, and a modern UI to enhance the learning experience.",
+      category: "React",
+    },
+    {
+      title: "Coatching",
+      img: CoatchingImg,
+      liveDemo: "https://coaching-brown.vercel.app/",
+      repo: "https://github.com/Jovani-John/Coaching",
+      description:
+        "Modern coaching website built with React, Next.js, and TypeScript. Delivers responsive design, seamless navigation, and interactive features with a clean UI to enhance user engagement and coaching sessions.",
+      category: "Next",
+    },
     {
       title: "Portfolio",
       img: ReactPortfolio,
@@ -94,7 +125,14 @@ export default function Projects() {
         "responsive personal portfolio website built with React.js. Showcases projects, skills, and contact details with smooth navigation, animations, and a modern UI to highlight professional presence online.",
       category: "React",
     },
-    
+    {
+      title: "Cafe",
+      img: CafeImg,
+      liveDemo: "https://caf-aroma.vercel.app/",
+      repo: "https://github.com/Jovani-John/Caf-Aroma",
+      description:"Responsive cocktails café website built with React.js. Showcases creative drink menus, vibrant product images, and easy online ordering with smooth animations, modern UI, and an engaging browsing experience.",
+      category: "React",
+    },
   ];
 
   const filteredProjects =
