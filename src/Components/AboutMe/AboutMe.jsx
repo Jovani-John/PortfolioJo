@@ -55,20 +55,18 @@ export default function AboutMe() {
           </span>
 
           <p className="mt-4 text-white/80">
-           
-"I'm a Front-End Developer specialized in React.js, a graduate of Faculty of Computers & Informatics, Zagazig University.
-I have completed several certifications including Front-End Development (NTI Creativa Banha), Full-Stack Development (IT CRC – Zagazig University), and React Development (Upskilling EG)." 
+            "I'm a Front-End Developer specialized in React.js, a graduate of
+            Faculty of Computers & Informatics, Zagazig University. I have
+            completed several certifications including Front-End Development
+            (NTI Creativa Banha), Full-Stack Development (IT CRC – Zagazig
+            University), and React Development (Upskilling EG)."
           </p>
           {/* New line for certification */}
           <div className="mt-3 flex items-center gap-2 text-primary-200 font-medium">
             <div className="mt-3 flex items-center gap-3 text-primary-200 font-medium">
               {/* <div className="h-2 w-2 shrink-0  rounded-full bg-primary-400 shadow-[0_0_8px_rgba(96,165,250,0.9)]" /> */}
-
-           
-              
             </div>
           </div>
-          
         </header>
 
         {/* Grid: image first on mobile, side-by-side on desktop */}
@@ -127,15 +125,15 @@ I have completed several certifications including Front-End Development (NTI Cre
                 Quick Overview
               </h3>
               <p className="mt-3 text-white/80 leading-relaxed">
-                Iam a modern frontend practices
-                to deliver clean, reusable, and scalable UI systems. I optimize
-                bundle size, use code‑splitting and lazy loading, and leverage
-                skeletons to improve perceived performance.
+                Iam a modern frontend practices to deliver clean, reusable, and
+                scalable UI systems. I optimize bundle size, use code‑splitting
+                and lazy loading, and leverage skeletons to improve perceived
+                performance.
               </p>
               <div className="mt-7 flex flex-col sm:flex-row flex-wrap items-center gap-3">
                 {/* Download CV */}
                 <a
-                  href="https://drive.google.com/file/d/1WRqWEkI5_Q3moP0ceT2Vcl49LxFpI1bx/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1MRBfy4h7S7G2xQXjeA9wlTv5mgfzKd-b/view?usp=drivesdk"
                   className="group relative inline-flex items-center justify-center rounded-full px-5 py-2.5 text-sm font-medium"
                 >
                   <span className="absolute inset-0 rounded-full bg-gradient-to-r from-primary-500 to-primary-400 opacity-90 blur-[10px] transition group-hover:blur-[14px]" />
