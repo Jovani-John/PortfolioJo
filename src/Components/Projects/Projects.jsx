@@ -14,6 +14,7 @@ import EducationImg from "../../assets/imgs/Education.png";
 import CoatchingImg from "../../assets/imgs/Coatching.png";
 import CafeImg from "../../assets/imgs/Cafe.png";
 import ReactPortfolio from "../../assets/imgs/ReactPortfolio.png";
+import RovyImg from "../../assets/imgs/Rovy.png";
 import FloatingFAIcons from "../BubblesBackground/FloatingFAIcons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -131,6 +132,14 @@ export default function Projects() {
       liveDemo: "https://caf-aroma.vercel.app/",
       repo: "https://github.com/Jovani-John/Caf-Aroma",
       description:"Responsive cocktails café website built with React.js. Showcases creative drink menus, vibrant product images, and easy online ordering with smooth animations, modern UI, and an engaging browsing experience.",
+      category: "React",
+    },
+      {
+      title: "Rovy Ecommerce",
+      img: RovyImg,
+      liveDemo: "https://rovy-commerce-5o9eqzwfu-jovani-johns-projects.vercel.app/",
+      repo: "https://github.com/Jovani-John/rovy-commerce",
+      description:"Responsive e-commerce website built with React.js. Features product listings, shopping cart, and secure checkout with smooth navigation, engaging animations, and a modern UI to enhance the online shopping experience",
       category: "React",
     },
   ];
