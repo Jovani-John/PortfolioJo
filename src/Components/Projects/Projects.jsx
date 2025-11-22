@@ -15,6 +15,8 @@ import CoatchingImg from "../../assets/imgs/Coatching.png";
 import CafeImg from "../../assets/imgs/Cafe.png";
 import ReactPortfolio from "../../assets/imgs/ReactPortfolio.png";
 import RovyImg from "../../assets/imgs/Rovy.png";
+import SadifImg from "../../assets/imgs/Sadif.jpg";
+import EstateImg from "../../assets/imgs/RealState.jpg";
 import FloatingFAIcons from "../BubblesBackground/FloatingFAIcons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -31,19 +33,48 @@ export default function Projects() {
   }, []);
   const [selectedCategory, setSelectedCategory] = useState("All");
 
-  const categories = ["All", "CSS & HTML & JavaScript", "React", "Next"];
+  const categories = ["All","React", "Next"];
 
   const projects = [
+
     {
-      title: "Triple Commerce",
-      img: TripleCommerceImg,
-      liveDemo:
-        "https://triple-commerce-gftom676d-jovani-johns-projects.vercel.app/",
-      repo: "https://github.com/Jovani-John/Triple-Commerce",
+  title: "Sadif Portfolio",
+  img: SadifImg,
+  liveDemo:
+    "https://sadif-website-cvkt.vercel.app/en",
+  repo: "#",
+  description:
+    "  Developed a full corporate portfolio website for Sadif Engineering Consultancy using Next.js, React.js, TailwindCSS, and modern UI components ",
+  category: "Next",
+},
+
+       {
+      title: "E-Commerce",
+      img: CommerceImg,
+      liveDemo: "https://triple-ecommerce.vercel.app/",
+      repo: "https://github.com/Jovani-John/Triple-Ecommerce",
       description:
-        "A modern E-Commerce website built with React.js and Firebase. Allows users to browse products, add them to cart or wishlist, and securely place orders. Features real-time updates, user authentication, and responsive design..",
+        "Responsive e-commerce website built with React.js. Features product listings, shopping cart, and secure checkout with smooth navigation, engaging animations, and a modern UI to enhance the online shopping experience.",
       category: "React",
     },
+            {
+      title: "Real Estate",
+      img: EstateImg,
+      liveDemo: "https://realestatehubteam.netlify.app/",
+      repo: "#",
+      description:
+        "modern real estate website built with React and Tailwind CSS. It features property listings, search filters, and a responsive design to help users find their perfect home.",
+      category: "React",
+    },
+          {
+      title: "Rovy Ecommerce",
+      img: RovyImg,
+      liveDemo: "https://rovy-commerce-5o9eqzwfu-jovani-johns-projects.vercel.app/",
+      repo: "https://github.com/Jovani-John/rovy-commerce",
+      description:"Responsive e-commerce website built with React.js. Features product listings, shopping cart, and secure checkout with smooth navigation, engaging animations, and a modern UI to enhance the online shopping experience",
+      category: "React",
+    },
+
     {
       title: "Triple Pizza",
       img: TriplePizzaImg,
@@ -53,6 +84,47 @@ export default function Projects() {
         "“Triple Pizza is a modern and responsive pizza restaurant website built with React and Tailwind CSS. It showcases delicious menus, highlights special offers, and provides an engaging experience for pizza lovers.”",
       category: "React",
     },
+
+        {
+      title: "Coatching",
+      img: CoatchingImg,
+      liveDemo: "https://coaching-brown.vercel.app/",
+      repo: "https://github.com/Jovani-John/Coaching",
+      description:
+        "Modern coaching website built with React, Next.js, and TypeScript. Delivers responsive design, seamless navigation, and interactive features with a clean UI to enhance user engagement and coaching sessions.",
+      category: "Next",
+    },
+
+
+       {
+      title: "Triple Commerce",
+      img: TripleCommerceImg,
+      liveDemo:
+        "https://triple-commerce-gftom676d-jovani-johns-projects.vercel.app/",
+      repo: "https://github.com/Jovani-John/Triple-Commerce",
+      description:
+        "A modern E-Commerce website built with React.js and Firebase. Allows users to browse products, add them to cart or wishlist, and securely place orders. Features real-time updates, user authentication, and responsive design..",
+      category: "React",
+    }, 
+        {
+      title: "Education",
+      img: EducationImg,
+      liveDemo: "https://triple-education.vercel.app/",
+      repo: "https://github.com/Jovani-John/Triple-Education",
+      description:
+        "Responsive educational platform built with React.js. Provides interactive coding tutorials, progress tracking, and quizzes with smooth navigation, engaging animations, and a modern UI to enhance the learning experience.",
+      category: "React",
+    },
+
+        {
+      title: "Cafe",
+      img: CafeImg,
+      liveDemo: "https://caf-aroma.vercel.app/",
+      repo: "https://github.com/Jovani-John/Caf-Aroma",
+      description:"Responsive cocktails café website built with React.js. Showcases creative drink menus, vibrant product images, and easy online ordering with smooth animations, modern UI, and an engaging browsing experience.",
+      category: "React",
+    },
+
     {
       title: "AdGenix Agancy",
       img: AdGenixAgancyImg,
@@ -71,52 +143,7 @@ export default function Projects() {
         "“Triple Home is a modern real estate website built with React and Tailwind CSS. It features property listings, search filters, and a responsive design to help users find their perfect home.”",
       category: "React",
     },
-    {
-      title: "E-Commerce",
-      img: ECommerce,
-      liveDemo: "https://illustrious-cajeta-1430e7.netlify.app/",
-      repo: "#",
-      description:
-        "A modern E-Commerce website built with HTML CSS AND JS. Allows users to browse products, add them to cart or wishlist, and securely place orders. Features real-time updates, user authentication, and responsive design.",
-      category: "CSS & HTML & JavaScript",
-    },
-    {
-      title: "Portfolio",
-      img: PortfolioImg,
-      liveDemo: "https://jovani-portfolio.vercel.app/",
-      repo: "#",
-      description:
-        "responsive personal portfolio website built with React.js. Showcases projects, skills, and contact details with smooth navigation, animations, and a modern UI to highlight professional presence online..",
-      category: "React",
-    },
 
-    {
-      title: "E-Commerce",
-      img: CommerceImg,
-      liveDemo: "https://triple-ecommerce.vercel.app/",
-      repo: "https://github.com/Jovani-John/Triple-Ecommerce",
-      description:
-        "Responsive e-commerce website built with React.js. Features product listings, shopping cart, and secure checkout with smooth navigation, engaging animations, and a modern UI to enhance the online shopping experience.",
-      category: "React",
-    },
-    {
-      title: "Education",
-      img: EducationImg,
-      liveDemo: "https://triple-education.vercel.app/",
-      repo: "https://github.com/Jovani-John/Triple-Education",
-      description:
-        "Responsive educational platform built with React.js. Provides interactive coding tutorials, progress tracking, and quizzes with smooth navigation, engaging animations, and a modern UI to enhance the learning experience.",
-      category: "React",
-    },
-    {
-      title: "Coatching",
-      img: CoatchingImg,
-      liveDemo: "https://coaching-brown.vercel.app/",
-      repo: "https://github.com/Jovani-John/Coaching",
-      description:
-        "Modern coaching website built with React, Next.js, and TypeScript. Delivers responsive design, seamless navigation, and interactive features with a clean UI to enhance user engagement and coaching sessions.",
-      category: "Next",
-    },
     {
       title: "Portfolio",
       img: ReactPortfolio,
@@ -126,22 +153,8 @@ export default function Projects() {
         "responsive personal portfolio website built with React.js. Showcases projects, skills, and contact details with smooth navigation, animations, and a modern UI to highlight professional presence online.",
       category: "React",
     },
-    {
-      title: "Cafe",
-      img: CafeImg,
-      liveDemo: "https://caf-aroma.vercel.app/",
-      repo: "https://github.com/Jovani-John/Caf-Aroma",
-      description:"Responsive cocktails café website built with React.js. Showcases creative drink menus, vibrant product images, and easy online ordering with smooth animations, modern UI, and an engaging browsing experience.",
-      category: "React",
-    },
-      {
-      title: "Rovy Ecommerce",
-      img: RovyImg,
-      liveDemo: "https://rovy-commerce-5o9eqzwfu-jovani-johns-projects.vercel.app/",
-      repo: "https://github.com/Jovani-John/rovy-commerce",
-      description:"Responsive e-commerce website built with React.js. Features product listings, shopping cart, and secure checkout with smooth navigation, engaging animations, and a modern UI to enhance the online shopping experience",
-      category: "React",
-    },
+
+
   ];
 
   const filteredProjects =
